@@ -1,6 +1,8 @@
+import styles from './Manifest.module.css'
+
 function Manifest({}) {
   return(
-    <div>
+    <div className={styles.container}>
       <h1>
         Manifest
       </h1>

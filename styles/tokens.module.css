@@ -1,0 +1,23 @@
+/*COLORS*/
+/*Primary*/
+@value black-prim: #0E0E0E;
+@value white-prim: #FFFFFF;
+@value pink-prim: #CF7DFF;
+@value grey-prim: #F5F5F5;
+
+/*hover color*/
+@value black-hover: #403F3F;
+@value pink-hover: #403F3F;
+
+
+/*FONTS SIZES*/
+@value title-size: 3rem;
+@value subtitle-size: 1.7rem;
+
+/*FONT FAMILIES*/
+@value main-font: font-family: 'Montserrat', Helvetica, sans-serif;
+@value link-font: 'Bitter', serif;
+
+
+/*PADDING BUTTON*/
+@value button: 1.5rem 4rem;

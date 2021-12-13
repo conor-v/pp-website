@@ -1,6 +1,8 @@
+import styles from "./Vacatures.module.css"
+
 function vacatures({}) {
   return(
-    <div>
+    <div className={styles.container}>
       <h1>
         Vacatures
       </h1>

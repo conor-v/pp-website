@@ -1,4 +1,4 @@
-@value tokens: "./tokens.module.css";
+@value tokens: "../../styles/tokens.module.css";
 @value grey-prim from tokens;
 
 .container {

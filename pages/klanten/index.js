@@ -1,6 +1,8 @@
+import styles from './Klanten.module.css'
+
 function Klanten({}) {
   return(
-    <div>
+    <div className={styles.container}>
       <h1>
         Klanten
       </h1>

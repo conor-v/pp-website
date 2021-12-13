@@ -1,6 +1,8 @@
+import styles from './Diensten.module.css'
+
 function Diensten({}) {
   return(
-    <div>
+    <div className={styles.container}>
       <h1>
         Diensten
       </h1>

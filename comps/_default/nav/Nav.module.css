@@ -1,0 +1,6 @@
+@value tokens: "../../../styles/tokens.module.css";
+@value pink-prim from tokens;
+
+.container {
+  background-color: pink-prim;
+}

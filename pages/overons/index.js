@@ -1,6 +1,8 @@
+import styles from './Overons.module.css'
+
 function Overons({}) {
   return(
-    <div>
+    <div className={styles.container}>
       <h1>
         Over ons
       </h1>
