@@ -2,8 +2,8 @@ import { ApolloClient, InMemoryCache } from "@apollo/client";
 import { ApolloLink } from "apollo-link";
 import { HttpLink } from "apollo-link-http";
 
-const TOKEN = process.env.CONTENTFUL_ACCESS_TOKEN;
-const SPACE = process.env.CONTENTFUL_SPACE_ID;
+const TOKEN = process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN;
+const SPACE = process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID;
 const URL = `https://graphql.contentful.com/content/v1/spaces/${SPACE}`;
 
 const http = new HttpLink({
