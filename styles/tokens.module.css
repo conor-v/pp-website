@@ -15,7 +15,7 @@
 @value subtitle-size: 1.7rem;
 
 /*FONT FAMILIES*/
-@value main-font: font-family: 'Montserrat', Helvetica, sans-serif;
+@value main-font: 'Montserrat', Helvetica, sans-serif;
 @value link-font: 'Bitter', serif;
 
 

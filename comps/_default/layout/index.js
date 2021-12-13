@@ -1,5 +1,6 @@
-import Footer from '../footer'
 import Nav from '../nav'
+import VacList from "../../vacatures/vacList"
+import Footer from '../footer'
 import styles from './Layout.module.css'
 
 function Layout({children}) {
@@ -7,6 +8,7 @@ function Layout({children}) {
     <div>
       <Nav/>
         {children}
+      <VacList/>
       <Footer/>
     </div>
   )

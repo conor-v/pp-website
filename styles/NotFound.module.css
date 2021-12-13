@@ -1,0 +1,6 @@
+@value tokens: "./tokens.module.css";
+@value pink-prim from tokens;
+
+.error {
+  color: pink-prim;
+}
